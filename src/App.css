@@ -45,3 +45,46 @@ body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
 }
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  color: #ff4655;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #2b2b44;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #3a3a5e;
+}
+
+.scroll-top-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #ff4655;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.scroll-top-button:hover {
+  background-color: #e33a4d;
+}
+
+.detail-image {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 8px;
+  margin: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
