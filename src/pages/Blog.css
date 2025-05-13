@@ -1,0 +1,27 @@
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.blog-item {
+  background-color: #2a2a40;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.blog-item h2 {
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.blog-item p {
+  color: #cccccc;
+}
+
+.placeholder {
+  opacity: 0.5;
+  font-style: italic;
+  background-color: #1d1d2f;
+}
