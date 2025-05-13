@@ -25,3 +25,7 @@
   font-style: italic;
   background-color: #1d1d2f;
 }
+
+.project-content ul li {
+  margin-bottom: 1rem;
+}

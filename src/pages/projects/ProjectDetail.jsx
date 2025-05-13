@@ -36,11 +36,16 @@ const ProjectDetail = () => {
       </div>
 
       {project.link && (
-        <p>
-          <a href={project.link.url} target="_blank" rel="noopener noreferrer">
-            {project.link.label}
+        <div className="project-cta">
+          <a
+          href={project.link.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cta-button"
+          >
+          {project.link.label}
           </a>
-        </p>
+        </div>
       )}
 
       {showTopButton && (
