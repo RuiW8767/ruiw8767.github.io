@@ -11,7 +11,7 @@ const About = () => {
         <img src={profileImg} alt="Rui Wang" className="about-photo" />
         <p>
           Hi! I'm Rui Wang, a Computer Science student at UNSW Sydney with a passion for game development and software engineering.
-          I enjoy building fun, functional, and creative experiences—especially when I get to explore Unreal Engine, C++, and animation systems.
+          I enjoy building fun, functional, and creative experiences.
         </p>
       </div>
 
