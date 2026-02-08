@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
       <div className="nav-resume">
         <a
-          href="https://drive.google.com/file/d/1VNHvYy962GVSe8eGWX3O9PKkvvEoBDcQ/view?usp=sharing"
+          href="https://drive.google.com/file/d/16yepcPgFtpUbUMU_MxjnQL0mS9CKGPeQ/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="nav-resume-button"
